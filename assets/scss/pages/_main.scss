@@ -1,0 +1,24 @@
+.pagination{
+  .page-link{
+     border:1px solid  $green-500;
+    }
+  .page-link:hover{
+        border:1px solid  $green-500;
+        a:hover{
+            color: $white;
+        }
+       }
+  .text-success:hover{
+    background-color: $green-500;
+    }
+   .text-success a:hover{
+    color: $white;
+    }
+}
+
+.modal_avatar{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emir.jpeg?raw=true);
+  height: 141px;
+  background-position: center;
+  background-size: cover;
+}

@@ -351,7 +351,7 @@ $enable-cssgrid:              false !default;
 $enable-button-pointers:      true !default;
 $enable-rfs:                  true !default;
 $enable-validation-icons:     true !default;
-$enable-negative-margins:     false !default;
+$enable-negative-margins:     true !default;
 $enable-deprecation-messages: true !default;
 $enable-important-utilities:  true !default;
 
@@ -384,6 +384,8 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
   6: $spacer * .75,
+  7: $spacer * 2,
+  8: $spacer * 1.1875,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -611,7 +613,8 @@ $display-font-sizes: (
   3: 4rem,
   4: 3.5rem,
   5: 3rem,
-  6: 2.5rem
+  6: 2.5rem,
+  7: 0.875rem
 ) !default;
 
 $display-font-family: null !default;

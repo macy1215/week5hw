@@ -1,5 +1,11 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import './utils/variables';
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
+@import './utils/_variables.scss';
+@import './utils/maps';
+@import './utils/_utilities.scss';
+
 
 
 @import './layout/header.scss';
@@ -7,5 +13,6 @@
 
 
 @import './pages/index.scss';
+@import './pages/main.scss';
 
 @import "../../node_modules/bootstrap";
